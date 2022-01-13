@@ -1,0 +1,11 @@
+
+def frequency(l,x):
+    fre = 0
+    for i in l:
+        if i == x:
+            fre+=1
+    return fre
+
+l =['Element 1','Element 1','Element 1','Element 4']
+y = frequency(l,'Element 1')
+print(y)
