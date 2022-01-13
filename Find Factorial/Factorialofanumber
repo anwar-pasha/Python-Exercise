@@ -1,0 +1,14 @@
+#sum of digits of a number
+
+findlen=input("Enter a number: ")
+findlen = len(findlen)
+sum =0
+while findlen > 0:
+    z= int(findlen)
+    x = (z % 10)
+    sum = sum + x
+    y = (z // 10)
+    z = y
+    findlen = findlen -1
+
+print(sum)
