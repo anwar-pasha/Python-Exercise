@@ -1,0 +1,9 @@
+# remove a character from a string
+
+x = input("Enter a character: ")
+usr_string = "ABCDEFGH"
+new_string = ""
+for i in usr_string:
+    if i != x:
+        new_string=new_string+i
+print(new_string)
