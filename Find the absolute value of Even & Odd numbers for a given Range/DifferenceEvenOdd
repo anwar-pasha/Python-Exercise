@@ -1,0 +1,14 @@
+# Given the start and end of range.
+# Create a function that returns the absolute difference between sum of even and odd numbers
+
+range_start = int(input("Enter the start of range: "))
+range_end = int(input("Enter the end of range: "))
+even=0
+odd=0
+for i in range(range_start, range_end + 1):
+    if i % 2 == 0:
+        even = even + i
+    else:
+        odd = odd + i
+
+print(abs(even - odd))
